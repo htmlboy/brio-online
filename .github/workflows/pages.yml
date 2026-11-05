@@ -22,5 +22,20 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
+      - name: Inspect Pages domain
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const {owner, repo} = context.repo;
+            try {
+              const {data} = await github.request('GET /repos/{owner}/{repo}/pages', {owner, repo});
+              core.notice(`Pages domain: ${data.cname}; certificate: ${data.https_certificate?.state || 'pending'}`);
+              const health = await github.request('GET /repos/{owner}/{repo}/pages/health', {owner, repo});
+              const domain = health.data.domain || {};
+              const keys = ['host','dns_resolves','is_served_by_pages','is_https_eligible','http_status','is_proxied','is_cname_to_github_user_domain'];
+              core.notice('Pages DNS checks: ' + JSON.stringify(Object.fromEntries(keys.filter(key => key in domain).map(key => [key, domain[key]]))));
+            } catch (error) {
+              core.notice(`Pages diagnostic HTTP status: ${error.status || 'unavailable'}`);
+            }
       - uses: actions/deploy-pages@v4
         id: deploy
