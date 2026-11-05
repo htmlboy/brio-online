@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ece3d37.css",
+    "main.js": "/static/js/main.ab5c4966.js",
+    "static/js/170.7f8b76d3.chunk.js": "/static/js/170.7f8b76d3.chunk.js",
+    "static/js/281.71faaba9.chunk.js": "/static/js/281.71faaba9.chunk.js",
+    "static/js/899.3e7b9951.chunk.js": "/static/js/899.3e7b9951.chunk.js",
+    "static/js/615.b78c25ad.chunk.js": "/static/js/615.b78c25ad.chunk.js",
+    "static/media/treasure-map.png": "/static/media/treasure-map.50e01013fe7a0e7c6c08.png",
+    "static/media/parchment.png": "/static/media/parchment.7e87e27dbd6a94072db0.png",
+    "static/media/red-leather.png": "/static/media/red-leather.5b77bacdf00bd0a6c88f.png",
+    "static/media/woodboard.png": "/static/media/woodboard.244f621c08db1ae8f6e9.png",
+    "static/media/landscape.jpg": "/static/media/landscape.52bda1c035adeee4a267.jpg",
+    "static/media/wheel.png": "/static/media/wheel.f0e64826957171ff7580.png",
+    "static/media/letter.png": "/static/media/letter.91f39fce441a033dcfe8.png",
+    "static/media/compass.png": "/static/media/compass.528e69754f97c2a0f2f2.png",
+    "static/media/skull.png": "/static/media/skull.0d515c380901685d9161.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.8ece3d37.css",
+    "static/js/main.ab5c4966.js"
+  ]
+}
