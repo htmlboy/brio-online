@@ -1,4 +1,4 @@
-name: Publish site
+name: Publish Online
 on:
   push:
     branches: [main]
@@ -18,24 +18,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Stage the website
+        run: |
+          mkdir _site
+          rsync -a --exclude='.git' --exclude='.github' --exclude='_site' --exclude='firebase-config.js' ./ _site/
+      - name: Add Firebase browser configuration to the deployment artifact
+        env:
+          FIREBASE_CLIENT_CONFIG: ${{ secrets.FIREBASE_CLIENT_CONFIG }}
+        run: node .github/scripts/write-firebase-runtime.mjs _site/firebase-config.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
-      - name: Inspect Pages domain
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const {owner, repo} = context.repo;
-            try {
-              const {data} = await github.request('GET /repos/{owner}/{repo}/pages', {owner, repo});
-              core.notice(`Pages domain: ${data.cname}; certificate: ${data.https_certificate?.state || 'pending'}`);
-              const health = await github.request('GET /repos/{owner}/{repo}/pages/health', {owner, repo});
-              const domain = health.data.domain || {};
-              const keys = ['host','dns_resolves','is_served_by_pages','is_https_eligible','http_status','is_proxied','is_cname_to_github_user_domain'];
-              core.notice('Pages DNS checks: ' + JSON.stringify(Object.fromEntries(keys.filter(key => key in domain).map(key => [key, domain[key]]))));
-            } catch (error) {
-              core.notice(`Pages diagnostic HTTP status: ${error.status || 'unavailable'}`);
-            }
+          path: _site
       - uses: actions/deploy-pages@v4
         id: deploy
