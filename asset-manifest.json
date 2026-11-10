@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.b1cdd983.css",
-    "main.js": "/static/js/main.b142927c.js",
-    "static/css/502.abc1ccc1.chunk.css": "/static/css/502.abc1ccc1.chunk.css",
-    "static/js/502.c23e4e96.chunk.js": "/static/js/502.c23e4e96.chunk.js",
+    "main.js": "/static/js/main.75edd137.js",
+    "static/css/473.abc1ccc1.chunk.css": "/static/css/473.abc1ccc1.chunk.css",
+    "static/js/473.7309cff8.chunk.js": "/static/js/473.7309cff8.chunk.js",
     "static/js/281.71faaba9.chunk.js": "/static/js/281.71faaba9.chunk.js",
     "static/js/173.26fa91b1.chunk.js": "/static/js/173.26fa91b1.chunk.js",
     "static/media/treasure-map.png": "/static/media/treasure-map.50e01013fe7a0e7c6c08.png",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.b1cdd983.css",
-    "static/js/main.b142927c.js"
+    "static/js/main.75edd137.js"
   ]
 }
