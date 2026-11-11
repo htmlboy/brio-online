@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.53db3393.css",
-    "main.js": "/static/js/main.ded92f31.js",
-    "static/css/644.59ab6bc2.chunk.css": "/static/css/644.59ab6bc2.chunk.css",
-    "static/js/644.f4cb5c2e.chunk.js": "/static/js/644.f4cb5c2e.chunk.js",
+    "main.js": "/static/js/main.43c82f23.js",
+    "static/css/644.f3d46ca3.chunk.css": "/static/css/644.f3d46ca3.chunk.css",
+    "static/js/644.94bc3419.chunk.js": "/static/js/644.94bc3419.chunk.js",
     "static/js/281.71faaba9.chunk.js": "/static/js/281.71faaba9.chunk.js",
-    "static/js/173.40d6c333.chunk.js": "/static/js/173.40d6c333.chunk.js",
+    "static/js/173.104980f4.chunk.js": "/static/js/173.104980f4.chunk.js",
     "static/media/treasure-map.png": "/static/media/treasure-map.50e01013fe7a0e7c6c08.png",
     "static/media/parchment.png": "/static/media/parchment.7e87e27dbd6a94072db0.png",
     "static/media/red-leather.png": "/static/media/red-leather.5b77bacdf00bd0a6c88f.png",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.53db3393.css",
-    "static/js/main.ded92f31.js"
+    "static/js/main.43c82f23.js"
   ]
 }
