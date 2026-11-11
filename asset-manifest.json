@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.53db3393.css",
-    "main.js": "/static/js/main.3c485c37.js",
+    "main.css": "/static/css/main.5a4cb722.css",
+    "main.js": "/static/js/main.ece32084.js",
     "static/css/439.f3d46ca3.chunk.css": "/static/css/439.f3d46ca3.chunk.css",
-    "static/js/439.d2e53d29.chunk.js": "/static/js/439.d2e53d29.chunk.js",
+    "static/js/439.3cef109a.chunk.js": "/static/js/439.3cef109a.chunk.js",
     "static/js/281.71faaba9.chunk.js": "/static/js/281.71faaba9.chunk.js",
     "static/js/173.104980f4.chunk.js": "/static/js/173.104980f4.chunk.js",
     "static/media/treasure-map.png": "/static/media/treasure-map.50e01013fe7a0e7c6c08.png",
@@ -11,6 +11,7 @@
     "static/media/red-leather.png": "/static/media/red-leather.5b77bacdf00bd0a6c88f.png",
     "static/media/woodboard.png": "/static/media/woodboard.244f621c08db1ae8f6e9.png",
     "static/media/landscape.jpg": "/static/media/landscape.52bda1c035adeee4a267.jpg",
+    "static/media/IBMPlexSans-Variable.ttf": "/static/media/IBMPlexSans-Variable.75112ac7dc65eff2be50.ttf",
     "static/media/wheel.png": "/static/media/wheel.f0e64826957171ff7580.png",
     "static/media/letter.png": "/static/media/letter.91f39fce441a033dcfe8.png",
     "static/media/compass.png": "/static/media/compass.528e69754f97c2a0f2f2.png",
@@ -18,7 +19,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.53db3393.css",
-    "static/js/main.3c485c37.js"
+    "static/css/main.5a4cb722.css",
+    "static/js/main.ece32084.js"
   ]
 }
