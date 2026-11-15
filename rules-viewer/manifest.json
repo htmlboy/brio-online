@@ -1,0 +1,10 @@
+{
+  "sourceRepository": "htmlboy/brio-source",
+  "revision": "7d42b4baa934c0caa6e87a27171c92dde8c4c939",
+  "rulesUrl": "https://sistema.briorol.com/reglas/2.0/?embed=1",
+  "buildCommand": "node rules/tools/stage-online.mjs /path/to/brio-online",
+  "files": {
+    "online-viewer.css": "71151df618e1728c6f2a1c2105ee4cf5edbd1e062f90503a0c6c74bfc1f34928",
+    "online-viewer.js": "71cc64050f2692ccdcd5fb3203b9f8050ace55401af8497b5e50b2b1010f5b08"
+  }
+}
