@@ -1,11 +1,11 @@
 {
   "sourceRepository": "htmlboy/brio-source",
-  "revision": "839405063c49a3860183355e39fc108bfeb9109d",
+  "revision": "b36a93f6b3f08ceeb7cb1aca96fe6bff625d6e1a",
   "contentUrl": "/rules-viewer/content.html",
   "buildCommand": "node rules/tools/stage-online.mjs /path/to/brio-online",
   "files": {
     "content.html": "16fe6a8dca2e496dd161ccb9bee64cbbe68d4800f4d2a8c72eb2731e91615366",
-    "online-viewer.css": "253bde739f593d4dd39d7191bdba8c64988b27c46563a5b31736a3f829493351",
+    "online-viewer.css": "5c30f9f4a3cb74b7f4b0eb729a2e2a225669af8ed6be5b939ac4f4f3c841afee",
     "online-viewer.js": "3bd06d2a51d255bfe796f60599923c1994a8994a1b31478a82827d7947d73ee0"
   }
 }
