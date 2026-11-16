@@ -1,11 +1,12 @@
 {
   "sourceRepository": "htmlboy/brio-source",
-  "revision": "b36a93f6b3f08ceeb7cb1aca96fe6bff625d6e1a",
+  "sourceRevision": "0f74e06b78bbcd483d09734cf303860bd9f3f207",
+  "revision": "0f74e06b78bbcd483d09734cf303860bd9f3f207",
   "contentUrl": "/rules-viewer/content.html",
-  "buildCommand": "node rules/tools/stage-online.mjs /path/to/brio-online",
+  "canonicalPath": "rules/editions/2.0/rules.html",
+  "buildCommand": "node rules/tools/prepare-online.mjs",
+  "canonicalSha256": "d59a6f9eddd1053d0d14a58d1d4a0bf140c01fa35f4311546742de1a8cc131da",
   "files": {
-    "content.html": "16fe6a8dca2e496dd161ccb9bee64cbbe68d4800f4d2a8c72eb2731e91615366",
-    "online-viewer.css": "5c30f9f4a3cb74b7f4b0eb729a2e2a225669af8ed6be5b939ac4f4f3c841afee",
-    "online-viewer.js": "3bd06d2a51d255bfe796f60599923c1994a8994a1b31478a82827d7947d73ee0"
+    "content.html": "16fe6a8dca2e496dd161ccb9bee64cbbe68d4800f4d2a8c72eb2731e91615366"
   }
 }
