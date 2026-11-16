@@ -1,9 +1,7 @@
-# Brío online
+# Brío Online
 
-Static publication for https://online.briorol.com/.
+Generated from htmlboy/brio-source at 0f74e06b78bbcd483d09734cf303860bd9f3f207. Source remains maintained only in the monorepo.
 
-Public entry and /reglas/ include build-time HTML; room and profile data loads in the browser.
+Build: CI=true GENERATE_SOURCEMAP=false PUBLIC_URL=/ REACT_APP_FIREBASE_EMULATORS=false REACT_APP_GOOGLE_SIGN_IN=true npm run build:webapp.
 
-This repository contains compiled website files. The application source is maintained separately. Changes pushed to main are published by GitHub Pages. Firebase provides the online services; no hosting is provided by Netlify.
-
-Firebase browser configuration is supplied to the Pages artifact from the repository Actions secret FIREBASE_CLIENT_CONFIG. The committed placeholder contains no API key. Runtime configuration remains public on the website. No service-account keys or publishing tokens are included.
+The existing Pages workflow injects public Firebase browser configuration into the deployment artifact. Domain, workflow and licensing files are preserved from the publication repository.
